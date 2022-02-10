@@ -1,0 +1,42 @@
+.section {
+  padding: 60px 0;
+
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
+    
+  &__team-background {
+    background-color: $secondary-background-color;
+  }
+
+  &__no-pading-top {
+    padding-top: 0;
+
+    @media screen and (max-width: 1199px) {
+      display: none;
+  }
+  }
+}
+
+.section__title {
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.17;
+  margin-bottom: 30px;
+
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
+
+.section__title--visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

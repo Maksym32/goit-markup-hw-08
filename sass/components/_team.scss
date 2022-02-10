@@ -1,0 +1,65 @@
+.team {
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  
+
+  &__item {
+    background-color: $white-color;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 1px 3px rgba(0, 0, 0, 0.12);
+
+    @media screen and (max-width: 767px) {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc(100% / 2 - 30px);
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc(100% / 4 - 30px);
+    }
+  }
+
+
+  &__info {
+  
+    padding-top: 30px ;
+    padding-bottom: 24px;
+    
+    @media  screen and (min-width: 1200px) {
+      padding-bottom: 30px;
+    }
+
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  &__text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color;
+  }
+}
