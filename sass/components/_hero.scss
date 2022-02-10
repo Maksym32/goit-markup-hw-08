@@ -8,7 +8,7 @@
   background-image: linear-gradient(
                   rgba(47, 48, 58, 0.4),
                   rgba(47, 48, 58, 0.4)),
-                  url(../../img/mobile_img.jpg);
+                  url(../img/mobile_img.jpg);
   background-size: cover; 
 
   @media (min-device-pixel-ratio: 2),
@@ -17,14 +17,14 @@
       background-image: linear-gradient(
                   rgba(47, 48, 58, 0.4),
                   rgba(47, 48, 58, 0.4)),
-                  url(../../img/mobile_img@2x.jpg);
+                  url(../img/mobile_img@2x.jpg);
     }
 
   @media screen and (min-width: 480px) {
     background-image: linear-gradient(
                   rgba(47, 48, 58, 0.4),
                   rgba(47, 48, 58, 0.4)),
-                  url(../../img/tablet_img.jpg);
+                  url(../img/tablet_img.jpg);
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -32,7 +32,7 @@
       background-image: linear-gradient(
                   rgba(47, 48, 58, 0.4),
                   rgba(47, 48, 58, 0.4)),
-                  url(../../img/tablet_img@2x.jpg);
+                  url(../img/tablet_img@2x.jpg);
     }
   }
 
@@ -40,7 +40,7 @@
     background-image: linear-gradient(
                   rgba(47, 48, 58, 0.4),
                   rgba(47, 48, 58, 0.4)),
-                  url(../../img/desktop_Img.jpg);
+                  url(../img/desktop_Img.jpg);
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -48,7 +48,7 @@
       background-image: linear-gradient(
                   rgba(47, 48, 58, 0.4),
                   rgba(47, 48, 58, 0.4)),
-                  url(../../img/desktop_Img@2x.jpg);
+                  url(../img/desktop_Img@2x.jpg);
     }
   }
 
