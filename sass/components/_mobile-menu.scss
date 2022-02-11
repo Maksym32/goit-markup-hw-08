@@ -57,6 +57,10 @@
   color: $primary-text-color;
   }
 
+  &__link--current {
+    color: $accent-color;
+  }
+
   &__link:hover, &__link:focus {
     color: $accent-color;
   }

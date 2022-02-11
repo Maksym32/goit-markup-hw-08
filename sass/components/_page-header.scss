@@ -12,9 +12,14 @@
 
 .desktop-menu {
   display: flex;
+  align-items: center;
+  margin-left: 88px;
 
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
   }
   
 }
@@ -63,8 +68,7 @@
 }
 
 .auth-nav {
-  @media screen and (max-width: 1199px) {
-    padding: 21px 0;
+  @media screen and (max-width: 1199px) { 
     margin-left: 84px;
   }
   
